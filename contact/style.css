@@ -1,0 +1,28 @@
+
+.container-fluid {
+  background-color: #003300;
+}
+
+#fColor {
+  color: white;
+  font-size: 20px;
+}
+
+#hov a:hover {
+  color: #bfbfbf;
+  font-size: 25px;
+}
+
+.footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+  background-color: #003300;
+}
+.social {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: white;
+}

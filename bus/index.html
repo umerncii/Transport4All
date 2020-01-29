@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dublin Bus</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="style.css" />
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <!--Header for logo and banner section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-xsm-12">
+          <img src="banner.png" width="100%" alt="banner" />
+        </div>
+      </div>
+    
+    <!--Nav Bar section -->
+        <div class="container">
+          <nav class="navbar navbar-inverse ">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav " id="hov">
+                <li class=><a href="../index.html" id="fColor">Home</a></li>
+                <li>
+                  <a href="../luas/index.html" id="fColor">Luas</a>
+                </li>
+                <li><a href="../bikes/index.html" id="fColor">Dublin Bikes</a></li>
+                <li class="active"><a href="index.html" id="fColor">Dublin Bus</a></li>
+                <li><a href="../rail/index.html" id="fColor">Irish Rail</a></li>
+                <li><a href="../maps/index.html" id="fColor">Maps</a></li>
+                <li>
+                  <a href="../contact/index.html" id="fColor">Help & Contact</a>
+                </li>
+              </ul>
+             
+            </div>
+          </nav>
+        </div>
+    
+    <!-- Mid Section-->
+    
+     
+        <div class="container">
+          <div class="col-sm-8  well">
+            
+              <h3 style="color:green ">Dublin Bus Real Time Information Results For Stop <u id="stopID"></u></h3>
+              <p></p>            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Route</th>
+                    <th>Destination</th>
+                    <th>Minutes Until Arrival</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="bus0Route">Bus Number</td>
+                    <td id="bus0Dest">Bus destination</td>
+                    <td class="bus-time" id="bus0Time">Bus Time</td>
+                  </tr>
+                  <tr>
+                    <td id="bus1Route">Bus Number</td>
+                    <td id="bus1Dest">Bus destination</td>
+                    <td id="bus1Time">Bus Time</td>
+                  </tr>
+                  <tr>
+                    <td id="bus2Route">Bus Number</td>
+                    <td id="bus2Dest">Bus destination</td>
+                    <td id="bus2Time">Bus Time</td>
+                  </tr>
+                  <tr>
+                    <td id="bus3Route">Bus Number</td>
+                    <td id="bus3Dest">Bus destination</td>
+                    <td id="bus3Time">Bus Time</td>
+                  </tr>
+                  <tr>
+                    <td id="bus4Route">Bus Number</td>
+                    <td id="bus4Dest">Bus destination</td>
+                    <td id="bus4Time">Bus Time</td>
+                  </tr>
+                  <tr>
+                    <td id="bus5Route">Bus Number</td>
+                    <td id="bus5Dest">Bus destination</td>
+                    <td id="bus5Time">Bus Time</td>
+                  </tr><tr>
+                    <td id="bus6Route">Bus Number</td>
+                    <td id="bus6Dest">Bus destination</td>
+                    <td id="bus6Time">Bus Time</td>
+                  </tr><tr>
+                    <td id="bus7Route">Bus Number</td>
+                    <td id="bus7Dest">Bus destination</td>
+                    <td id="bus7Time">Bus Time</td>
+                  </tr>
+                </tbody>
+              </table>
+            
+
+          </div>
+          <div class="col-sm-4  well">
+              <br>
+              <br>
+              <br>
+              
+            <div class="container">
+            <div class="hi">
+              <form>
+			  <h3>Last Sync: <u id="refreshed" style="color:green "></u></h3>
+			  <br>
+              <br>
+			  
+                <input type="text" id="stopNum" placeholder="Enter Stop Number">
+                <button type="button" onclick="loadDoc()" class="btn btn-primary mb-2" style="background-color:green">Search</button>
+              </form>
+            </div>
+			
+            <br>
+              <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+          </div>
+
+        </div>
+      
+    
+  
+
+		<!--Footer Section-->
+		<div class="container">
+				<div class=" footer well">
+						<p> &copy; Copyright Transport 4 All 2019</p>
+				</div>
+    </div>
+ 
+    
+  </div>
+  </body>
+</html>

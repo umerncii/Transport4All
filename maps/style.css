@@ -1,0 +1,67 @@
+
+#direction-canvas{
+	height:100%;
+}
+
+.container-fluid {
+  background-color: #003300;
+}
+
+#fColor {
+  color: white;
+  font-size: 20px;
+}
+
+#hov a:hover {
+  color: #bfbfbf;
+  font-size: 25px;
+}
+
+.footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+  background-color: #003300;
+}
+
+.social {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+.map-section {
+  height: 440px;
+}
+#map{
+		height:400px;
+		width:100%;
+	}
+#floating-panel{
+	position: absolute;
+	top: 10px;
+	left: 25%;
+	z-index: 5;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	line-height:30px;
+	padding-left:10px;
+	
+}
+
+input[type='text'] {
+  padding: 5px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid green;
+}
+.btn{
+	
+	background-color:green;
+	color:white;
+}
+

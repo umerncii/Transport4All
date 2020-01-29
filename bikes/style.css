@@ -1,0 +1,42 @@
+
+#hov a:hover {
+    color: #bfbfbf;
+	font-size:23px;
+}
+.container-fluid{
+	
+	background-color: #003300;
+	
+}
+#fColor{
+	color:white;
+	font-size:20px;
+}
+
+
+
+.hi{
+	position:relative;
+	top:5px;
+	left:15%;
+	
+	
+	
+}
+
+	input[type=text] {
+  
+  padding: 5px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid green;
+}
+.footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  text-align: center;
+  color: white;
+  background-color: #003300;
+}

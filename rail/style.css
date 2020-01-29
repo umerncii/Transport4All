@@ -1,0 +1,50 @@
+.name {
+  color: white;
+  font-size: 40px;
+  font-family: italic;
+  text-align: center;
+}
+
+
+.container-fluid {
+  background-color: #003300;
+}
+
+#fColor {
+  color: white;
+  font-size: 20px;
+}
+
+#hov a:hover {
+  color: #bfbfbf;
+  font-size: 25px;
+}
+
+.footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+  background-color: #003300;
+}
+input[type='text'] {
+  padding: 5px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid green;
+}
+.btn{
+	
+	background-color:green;
+	color:white;
+}
+.hi{
+	position:relative;
+	left:35%;
+	top:15px;
+}
+.well{
+	
+	top:30px;
+}
